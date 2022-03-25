@@ -4,6 +4,8 @@
 
 ## Live website link : https://fulfill-fruity-demand.netlify.app/
 
+## JSON Data :  https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/data.json
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
