@@ -2,7 +2,7 @@ import React from "react";
 import "./Product.css";
 import { BsCartPlusFill } from "react-icons/bs";
 
-const Product = ({ product }) => {
+const Product = ({ product, handleAddToCart }) => {
   const { name, img, price } = product;
   return (
     <div className="card">
@@ -17,7 +17,7 @@ const Product = ({ product }) => {
           <span className="price">$ {price}</span>
         </h4>
       </div>
-      <div className="add-to-cart">
+      <div className="add-to-cart" onClick={() => handleAddToCart(product)}>
         <h4>ADD TO CART</h4>
         <BsCartPlusFill className="icon"></BsCartPlusFill>
       </div>
@@ -27,6 +27,4 @@ const Product = ({ product }) => {
 
 export default Product;
 
-
-  /* <button onClick={() => handleAddToCart(product)}></button> */
-
+/* <button onClick={() => handleAddToCart(product)}></button> */
