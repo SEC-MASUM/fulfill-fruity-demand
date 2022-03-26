@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.app-header {
+  text-align: center;
+}
+.header {
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.header .fruity {
+  color: #ff6600;
+}
+.header .demand {
+  color: #7eca27;
+}
+
+.app-header h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #7f152e;
+}
+
+/* color: #4b7447; */
+/* color: #ff420e; */
+/* color: #4897d8; */
+/* color: #f56c57; */
