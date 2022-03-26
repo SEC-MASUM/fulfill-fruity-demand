@@ -22,7 +22,34 @@ const Question = () => {
         </div>
         <div className="question-container">
           <h1 className="question">Props vs State</h1>
-          <p className="answer">sfsdfsdfsd</p>
+          <p className="answer">
+            <span>
+              Props:
+              <br />
+              1. Props শুধু parent component থেকে child component এ Data পাঠায়।
+              child component থেকে parent component এ Data পাঠাতে পারে না।
+              <br />
+              2. Props নিজে immutable.
+              <br />
+              3. Props যে কোনো component এ use করা যায়।
+              <br />
+              4. Props read only.
+            </span>
+            <br />
+            <br />
+            <span>
+              State:
+              <br />
+              1. State যে component এ থাকে শুধু সেইটার ভিতর পাঠায় অন্য component
+              এ পাঠাতে পারে না ।
+              <br />
+              2. State mutable.
+              <br />
+              3. যে component এ State use হয় তাকে Statefull component বলে।
+              <br />
+              4. State is not read only.
+            </span>
+          </p>
         </div>
         <div className="question-container">
           <h1 className="question">How useState works?</h1>
@@ -35,14 +62,5 @@ const Question = () => {
 
 export default Question;
 /* 
-  Props: 
-  1. 
-  2.
-  3.
-  4.
-  State: 
-  1.
-  2.
-  3.
-  4.
+  
 */
