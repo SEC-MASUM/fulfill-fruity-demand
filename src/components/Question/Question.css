@@ -6,8 +6,8 @@
 .questions-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 36px;
-  margin: 50px;
+  gap: 30px;
+  margin: 20px;
   align-items: center;
   justify-content: space-around;
 }
@@ -18,13 +18,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 20px 10px;
   border-radius: 5px;
   /* justify-content: center; */
 }
 
 .question {
-  margin: 10px;
+  margin-bottom: 10px;
   color: #ff6600;
 }
 .answer {
