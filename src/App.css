@@ -9,5 +9,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
-
+.footer {
+  text-align: center;
+  margin: 20px 0;
+}
+.footer span {
+  color: #7eca27;
+}

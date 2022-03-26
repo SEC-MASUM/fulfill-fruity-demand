@@ -11,11 +11,11 @@ const Product = ({ product, handleAddToCart }) => {
       </div>
       <div className="info">
         <h3>
-          <span>{name}</span>
+          <span className="name">{name}</span>
         </h3>
-        <h4>
+        <h2>
           <span className="price">$ {price}</span>
-        </h4>
+        </h2>
       </div>
       <div className="add-to-cart" onClick={() => handleAddToCart(product)}>
         <h4>ADD TO CART</h4>

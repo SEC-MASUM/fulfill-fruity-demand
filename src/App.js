@@ -9,6 +9,9 @@ function App() {
       <Header></Header>
       <Shop></Shop>
       <Question></Question>
+      <p className="footer">
+        Coded by <span> Md. Masum Billah</span>
+      </p>
     </div>
   );
 }

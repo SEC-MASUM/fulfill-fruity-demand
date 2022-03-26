@@ -8,7 +8,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 36px;
   margin: 20px;
-  align-items: center;
+  justify-content: center;
   justify-content: space-between;
 }
 
@@ -20,7 +20,6 @@
   align-items: center;
   padding: 20px 20px;
   border-radius: 5px;
-  /* justify-content: center; */
 }
 
 .question {
@@ -31,7 +30,6 @@
   text-align: justify;
   color: #7f152e;
   font-size: 20px;
-  /* text-justify: auto; */
 }
 
 @media screen and (max-width: 576px) {

@@ -4,12 +4,15 @@
   top: 0;
   padding: 30px 20px;
   height: auto;
-  /* max-height: auto; */
-  /* max-height: auto; */
   width: 330px;
   background-color: #e5e4e2;
   border-radius: 5px;
   margin: 0 auto 20px;
+}
+.cart h3{
+  font-weight: 500;
+  font-size: 25px;
+  color: #7f152e;
 }
 
 .card-button button {
@@ -22,9 +25,13 @@
   color: #ff6600;
   border: 2px solid #ff6600;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .choose-again {
   color: #7eca27;
   border: 2px solid #7eca27;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
 }
