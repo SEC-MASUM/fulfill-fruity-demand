@@ -2,7 +2,7 @@ import React from "react";
 import "./CartItem.css";
 import { IoMdTrash } from "react-icons/io";
 
-const CartItem = ({ cartItem }) => {
+const CartItem = ({ cartItem, deleteItem }) => {
   console.log(cartItem);
   const { name, img, price } = cartItem;
   return (
@@ -17,7 +17,7 @@ const CartItem = ({ cartItem }) => {
         </div>
       </div>
 
-      <div className="delete-icon">
+      <div className="delete-icon" onClick={() => deleteItem(cartItem)}>
         <IoMdTrash></IoMdTrash>
       </div>
     </div>

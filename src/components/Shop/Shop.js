@@ -23,10 +23,14 @@ const Shop = () => {
   const handleChooseForMe = () => {
     // console.log("Choose 1 for me");
     // console.log(cartItems);
-    const totalCartItem = cartItems.length;
-    const randomItem = Math.floor(Math.random() * totalCartItem);
-    // console.log(cartItems[randomItem]);
-    setRandomItem(cartItems[randomItem]);
+    if (cartItems.length !== 0) {
+      const totalCartItem = cartItems.length;
+      const randomItem = Math.floor(Math.random() * totalCartItem);
+      // console.log(cartItems[randomItem]);
+      setRandomItem(cartItems[randomItem]);
+    } else {
+      alert("Plese add to cart some fruits");
+    }
   };
   const handleChooseAgain = () => {
     console.log("Choose Again Clicked");
@@ -34,6 +38,14 @@ const Shop = () => {
     setCartItems(newCartItems);
     const newRandomItem = {};
     setRandomItem(newRandomItem);
+  };
+
+  const deleteItem = (item) => {
+    console.log("delete", item);
+    const newCartItems = cartItems.filter(
+      (cartItem) => cartItem.id !== item.id
+    );
+    setCartItems(newCartItems);
   };
   return (
     <div>
@@ -55,6 +67,7 @@ const Shop = () => {
             cartItems={cartItems}
             handleChooseForMe={handleChooseForMe}
             handleChooseAgain={handleChooseAgain}
+            deleteItem={deleteItem}
           ></Cart>
         </div>
       </div>
