@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
-import CartItem from "../CartItem/CartItem";
 import Product from "../Product/Product";
 import "./Shop.css";
 
@@ -22,8 +21,6 @@ const Shop = () => {
   };
 
   const handleChooseForMe = () => {
-    const newRandomItem = {};
-    setRandomItem(newRandomItem);
     // console.log("Choose 1 for me");
     // console.log(cartItems);
     const totalCartItem = cartItems.length;
@@ -31,10 +28,16 @@ const Shop = () => {
     // console.log(cartItems[randomItem]);
     setRandomItem(cartItems[randomItem]);
   };
-
+  const handleChooseAgain = () => {
+    console.log("Choose Again Clicked");
+    const newCartItems = [];
+    setCartItems(newCartItems);
+    const newRandomItem = {};
+    setRandomItem(newRandomItem);
+  };
   return (
     <div>
-      <div className="randomly-selectd">
+      <div className="randomly-selected">
         <h1>{randomItem.name}</h1>
       </div>
       <div className="shop-container">
@@ -51,6 +54,7 @@ const Shop = () => {
           <Cart
             cartItems={cartItems}
             handleChooseForMe={handleChooseForMe}
+            handleChooseAgain={handleChooseAgain}
           ></Cart>
         </div>
       </div>

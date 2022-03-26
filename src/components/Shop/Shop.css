@@ -1,6 +1,12 @@
-.randomly-selectd{
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.randomly-selected {
   text-align: center;
   margin-top: 50px;
+  color: #7f152e;
+  letter-spacing: 0.3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 .shop-container {
