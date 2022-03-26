@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
+import CartItem from "../CartItem/CartItem";
 import Product from "../Product/Product";
 import "./Shop.css";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState([]);
+  const [randomItem, setRandomItem] = useState({});
 
   useEffect(() => {
     fetch("data.json")
@@ -19,10 +21,21 @@ const Shop = () => {
     // console.log("clicked", product);
   };
 
+  const handleChooseForMe = () => {
+    const newRandomItem = {};
+    setRandomItem(newRandomItem);
+    // console.log("Choose 1 for me");
+    // console.log(cartItems);
+    const totalCartItem = cartItems.length;
+    const randomItem = Math.floor(Math.random() * totalCartItem);
+    // console.log(cartItems[randomItem]);
+    setRandomItem(cartItems[randomItem]);
+  };
+
   return (
     <div>
-      <div>
-        <h1>It will be best choice</h1>
+      <div className="randomly-selectd">
+        <h1>{randomItem.name}</h1>
       </div>
       <div className="shop-container">
         <div className="product-container">
@@ -35,7 +48,10 @@ const Shop = () => {
           ))}
         </div>
         <div className="selected-item-container">
-          <Cart cartItems={cartItems}></Cart>
+          <Cart
+            cartItems={cartItems}
+            handleChooseForMe={handleChooseForMe}
+          ></Cart>
         </div>
       </div>
     </div>

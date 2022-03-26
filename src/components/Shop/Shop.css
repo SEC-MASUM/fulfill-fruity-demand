@@ -1,9 +1,14 @@
+.randomly-selectd{
+  text-align: center;
+  margin-top: 50px;
+}
+
 .shop-container {
   display: grid;
   grid-template-columns: 5fr 2fr;
   justify-content: center;
   padding: 30px;
-  margin: 50px 0px;
+  margin: 10px 0px 50px;
 }
 .product-container {
   display: grid;

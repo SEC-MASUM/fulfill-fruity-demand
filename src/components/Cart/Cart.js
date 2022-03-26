@@ -2,7 +2,7 @@ import React from "react";
 import CartItem from "../CartItem/CartItem";
 import "./Cart.css";
 
-const Cart = ({ cartItems }) => {
+const Cart = ({ cartItems, handleChooseForMe }) => {
   return (
     <div className="cart">
       <h3>Selected Fruits</h3>
@@ -13,7 +13,9 @@ const Cart = ({ cartItems }) => {
       </div>
 
       <div className="card-button">
-        <button className="choose-for-me">Choose 1 for me</button>
+        <button className="choose-for-me" onClick={() => handleChooseForMe()}>
+          Choose 1 for me
+        </button>
         <br />
         <button className="choose-again">Choose again</button>
       </div>
