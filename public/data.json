@@ -2,73 +2,73 @@
   {
     "id": "623e0943169ae4d4d410c2c7",
     "name": "Al-Dhafra Dabbsa",
-    "price": "$201",
+    "price": "201",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Al-Dhafra-Dabbsa.jpg"
   },
   {
     "id": "623e0943df7868bdf53af35c",
     "name": "Bori Acar",
-    "price": "$373",
+    "price": "373",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Bori-Acar.jpg"
   },
   {
     "id": "623e0943db9bc4c68f33dfdb",
     "name": "Calte Acar",
-    "price": "$242",
+    "price": "242",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Calte-Acar.jpg"
   },
   {
     "id": "623e0943d5e512ce386d3488",
     "name": "Dabbas Family Packet",
-    "price": "$437",
+    "price": "437",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Dabbas-2-5kg%20Packet.jpg"
   },
   {
     "id": "623e0943d8773e86067b9674",
     "name": "Dabbas Date",
-    "price": "$426",
+    "price": "426",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Dabbas-Dates.jpg"
   },
   {
     "id": "623e094323a7558d79a66968",
     "name": "Date Crown Reziz",
-    "price": "$406",
+    "price": "406",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Date-Crown%20Reziz.jpg"
   },
   {
     "id": "623e09439442baa8e13096ca",
     "name": "Cashew Nut",
-    "price": "$279",
+    "price": "279",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Kaju-Badam.jpg"
   },
   {
     "id": "623e09435fa172165af6cbff",
     "name": "Almond Nut",
-    "price": "$286",
+    "price": "286",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Kath-Badam.jpg"
   },
   {
     "id": "623e0943d2d1c782778af8fc",
     "name": "Khalas Date",
-    "price": "$423",
+    "price": "423",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Khalas1.jpg"
   },
   {
     "id": "623e0943d6bd74dd131ac5e1",
     "name": "Khenaizi Date",
-    "price": "$282",
+    "price": "282",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Khenaizi.jpg"
   },
   {
     "id": "623e09432df2f28d7323d4d3",
     "name": "Raisins",
-    "price": "$309",
+    "price": "309",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Kismis.jpg"
   },
   {
     "id": "623e0943e8f0d7a340e4dd57",
     "name": "Lulu Date",
-    "price": "$393",
+    "price": "393",
     "img": "https://raw.githubusercontent.com/SEC-MASUM/fulfill-fruity-demand-resource/main/images/Lulu.jpg"
   }
 ]
