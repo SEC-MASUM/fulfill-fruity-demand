@@ -53,7 +53,15 @@ const Question = () => {
         </div>
         <div className="question-container">
           <h1 className="question">How useState works?</h1>
-          <p className="answer">sfsdfsdfsd</p>
+          <p className="answer">
+            useState একটা Hook. useState() function টা React এর component এর
+            state manage করতে হেল্প করে। একটা component এ এক বা একাধিক state
+            থাকতে পারে। এ জন্য যতগুলো প্রয়োজন ততগুলা useState() use করা যাবে।
+            useState() function এ একটা initial state দিয়ে দেয়া যায়, এই
+            useState() funtion একটা current state এর মান সহ একটা variable
+            রিটার্ন করে এবং সাথে একটা setfunction রিটার্ন করে যার মাধ্যমে
+            পরবর্তিতে variable টার মান update করা হয়।
+          </p>
         </div>
       </div>
     </div>

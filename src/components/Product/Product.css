@@ -46,9 +46,9 @@ background-color: #4b7447;
 background-color: #ff420e;
 background-color: #4897d8; */
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .card, .card-image-container {
-      /* height: auto; */
-      /* width: 80%; */
+      height: auto; */
+/* width: 80%;
   }
-}
+} */
