@@ -12,13 +12,14 @@
   margin: 0px 50px;
 }
 
-.selected-item-container {
+/* .selected-item-container {
   height: 300px;
+  max-height: auto;
   max-height: auto;
   width: 330px;
   background-color: #e5e4e2;
   border-radius: 5px;
-}
+} */
 
 @media screen and (max-width: 576px) {
   .shop-container {

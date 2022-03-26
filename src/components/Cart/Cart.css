@@ -1,5 +1,29 @@
 .cart {
+  background-color: #e5e4e2;
   position: sticky;
   top: 0;
   padding: 30px 20px;
+  height: auto;
+  /* max-height: auto; */
+  /* max-height: auto; */
+  width: 330px;
+  background-color: #e5e4e2;
+  border-radius: 5px;
+}
+
+.card-button button {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.card-button .choose-for-me {
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 5px;
+}
+.choose-again {
+  color: #7eca27;
+  border: 2px solid #7eca27;
+  border-radius: 5px;
 }
